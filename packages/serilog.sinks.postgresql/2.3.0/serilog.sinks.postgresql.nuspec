@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Serilog.Sinks.PostgreSQL</id>
+    <version>2.3.0</version>
+    <authors>Evgenii Butorin</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/b00ted/serilog-sinks-postgresql</projectUrl>
+    <description>Serilog sink for writing to PostgreSQL table</description>
+    <releaseNotes>Added ability to set length of individual column</releaseNotes>
+    <tags>serilog postgresql</tags>
+    <repository type="git" url="https://github.com/b00ted/serilog-sinks-postgresql" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Npgsql" version="4.0.2" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.7.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.PeriodicBatching" version="2.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net5.0">
+        <dependency id="Npgsql" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.7.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.PeriodicBatching" version="2.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Npgsql" version="5.0.5" exclude="Build,Analyzers" />
+        <dependency id="Serilog" version="2.7.1" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.PeriodicBatching" version="2.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
