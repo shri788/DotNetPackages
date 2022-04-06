@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Hangfire.PostgreSql</id>
+    <version>1.9.7</version>
+    <authors>Frank Hommers and others (Burhan Irmikci (barhun), Zachary Sims(zsims), kgamecarter, Stafford Williams (staff0rd), briangweber, Viktor Svyatokha (ahydrax), Christopher Dresel (Dresel), Vytautas Kasparavičius (vytautask), Vincent Vrijburg, David Roth (davidroth).</authors>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>http://hmm.rs/Hangfire.PostgreSql</projectUrl>
+    <description>PostgreSql storage implementation for Hangfire (background job system for ASP.NET and aspnet core applications).</description>
+    <releaseNotes>https://github.com/frankhommers/Hangfire.PostgreSql/releases</releaseNotes>
+    <copyright>Copyright © 2014-2021 Frank Hommers and others</copyright>
+    <tags>Hangfire PostgreSql Postgres</tags>
+    <repository type="git" url="https://github.com/frankhommers/Hangfire.PostgreSql" branch="1.9.7" commit="edbf5b9cedbc388abb46f975756053409237bd6c" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Dapper" version="2.0.123" exclude="Build,Analyzers" />
+        <dependency id="Hangfire.Core" version="1.7.27" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.CSharp" version="4.7.0" exclude="Build,Analyzers" />
+        <dependency id="Npgsql" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
